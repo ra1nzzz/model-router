@@ -3,7 +3,7 @@ name: model-router
 model: standard
 category: utility
 description: Smart model router - Auto-detects task type and routes to optimal model (free/low-cost/fast first) | 智能模型路由器 - 自动检测任务类型，优先使用免费/低耗/快速模型
-version: 1.0.0
+version: 1.0.1
 ---
 
 # model-router | 智能模型路由器
