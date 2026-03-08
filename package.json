@@ -1,0 +1,38 @@
+{
+  "name": "model-router",
+  "version": "1.0.1",
+  "description": "Smart Model Router - Automatically routes tasks to optimal models based on type, cost, and speed",
+  "main": "handler.js",
+  "scripts": {
+    "test": "node test.js",
+    "postinstall": "node -e \"console.log('✅ model-router installed! Hook auto-registered. Check docs: https://github.com/ra1nzzz/model-router')\""
+  },
+  "keywords": [
+    "openclaw",
+    "hook",
+    "model",
+    "router",
+    "ai",
+    "llm",
+    "auto-routing",
+    "cost-optimization"
+  ],
+  "author": "韬哥",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "openclaw": {
+    "hooks": [
+      "."
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ra1nzzz/model-router"
+  },
+  "bugs": {
+    "url": "https://github.com/ra1nzzz/model-router/issues"
+  },
+  "homepage": "https://github.com/ra1nzzz/model-router#readme"
+}

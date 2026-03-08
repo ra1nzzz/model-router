@@ -1,0 +1,63 @@
+{
+  "name": "model-router",
+  "displayName": "Model Router | 智能模型路由器",
+  "description": "Smart model router for OpenClaw - Auto-detects task type and routes to optimal model (free/low-cost/fast first)",
+  "descriptionCN": "OpenClaw 智能模型路由器 - 自动检测任务类型，优先使用免费/低耗/快速模型",
+  "version": "1.0.1",
+  "author": "韬哥",
+  "license": "MIT",
+  "repository": "https://github.com/ra1nzzz/model-router",
+  "homepage": "https://github.com/ra1nzzz/model-router#readme",
+  "bugs": "https://github.com/ra1nzzz/model-router/issues",
+  "tags": [
+    "model",
+    "router",
+    "optimization",
+    "cost-saving",
+    "auto-routing",
+    "hook"
+  ],
+  "category": "Utility",
+  "minOpenClawVersion": "0.1.0",
+  "installSize": "~20KB",
+  "features": [
+    "Auto-register hook on install",
+    "Smart task type detection",
+    "Prioritizes free/low-cost models",
+    "Model switch notifications",
+    "Universal compatibility",
+    "No configuration needed"
+  ],
+  "featuresCN": [
+    "安装后自动注册 Hook",
+    "智能任务类型检测",
+    "优先使用免费/低消耗模型",
+    "模型切换提示",
+    "通用兼容性",
+    "无需配置"
+  ],
+  "usage": {
+    "en": "Install and forget - automatically routes your messages to optimal models",
+    "cn": "安装即用 - 自动路由消息到最优模型"
+  },
+  "changelog": {
+    "1.0.1": {
+      "date": "2026-03-08",
+      "changes": [
+        "🔥 修复：代码任务强制优先 code 模型（+200 分）",
+        "✨ 优化：模型切换提示更清晰（显示任务类型）",
+        "🐛 修复：免费模型不会覆盖 code 模型优先级"
+      ]
+    },
+    "1.0.0": {
+      "date": "2026-03-08",
+      "changes": [
+        "Initial release",
+        "Smart task detection (code/reasoning/creative/fast)",
+        "Model scoring system (free +100pts, task-match +50pts, etc.)",
+        "Model switch notifications",
+        "Universal compatibility with any OpenClaw setup"
+      ]
+    }
+  }
+}

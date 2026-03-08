@@ -1,0 +1,31 @@
+{
+  "code": {
+    "primary": "stepfun/step-3.5-flash:free",
+    "fallbacks": [
+      "bailian/qwen3-coder-plus",
+      "bailian/qwen3.5-plus"
+    ]
+  },
+  "reasoning": {
+    "primary": "stepfun/step-3.5-flash:free",
+    "fallbacks": [
+      "bailian/qwen3.5-plus"
+    ]
+  },
+  "fast": {
+    "primary": "stepfun/step-3.5-flash:free",
+    "fallbacks": []
+  },
+  "creative": {
+    "primary": "stepfun/step-3.5-flash:free",
+    "fallbacks": [
+      "bailian/qwen3.5-plus"
+    ]
+  },
+  "auto": {
+    "primary": "stepfun/step-3.5-flash:free",
+    "fallbacks": [
+      "bailian/qwen3.5-plus"
+    ]
+  }
+}
